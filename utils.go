@@ -25,3 +25,11 @@ func PowerOf(a, b int) int {
 		return a * PowerOf(a, b-1)
 	}
 }
+
+func Factorial(n int) int {
+	if n == 0 {
+		return 1
+	} else {
+		return n * Factorial(n-1)
+	}
+}
