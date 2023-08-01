@@ -18,8 +18,10 @@ func Barks() string {
 
 func PowerOf(a, b int) int {
 	if b == 0 {
+		return 1
+	} else if b == 1 {
 		return a
 	} else {
-		return PowerOf(a*a, b-1)
+		return PowerOf(a*b, b-1)
 	}
 }
