@@ -22,6 +22,6 @@ func PowerOf(a, b int) int {
 	} else if b == 1 {
 		return a
 	} else {
-		return PowerOf(a*b, b-1)
+		return PowerOf(a*a, b-1)
 	}
 }
