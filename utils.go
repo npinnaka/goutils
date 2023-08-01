@@ -15,3 +15,11 @@ func Bark() string {
 func Barks() string {
 	return "Woff Woff Woff!!"
 }
+
+func PowerOf(a, b int) int {
+	if b == 0 {
+		return a
+	} else {
+		return PowerOf(a*a, b-1)
+	}
+}
