@@ -16,6 +16,10 @@ func Barks() string {
 	return "Woff Woff Woff!!"
 }
 
+func Sqr(a int) int {
+	return a * a
+}
+
 func PowerOf(a, b int) int {
 	if b == 0 {
 		return 1
